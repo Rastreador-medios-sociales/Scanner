@@ -19,5 +19,8 @@ estadístico con los datos extraidos.
 
  - De momento solo nos quedaremos con las ubicaciones
  - Esto lo discutimos en el issue #3
+ 
+ ### Historias de Usuario
+  - Las hemos alojado en [HU/historiasDeUsuario.md](https://github.com/Rastreador-medios-sociales/Scanner/blob/master/HU/historiasDeUsuario.md)
 
 ## Estado actual del proyecto: **En construcción**
