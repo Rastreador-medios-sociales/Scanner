@@ -10,5 +10,10 @@
 
 ### HU4: Como usuario quiero poder reportar errores en los resultados de búsqueda
 
+### HU5: Registrar usuario
+
+### HU6: Almacenar el historial de búsqueda de cada usuario
+
+
 
 
