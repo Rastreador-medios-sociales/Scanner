@@ -4,3 +4,5 @@ incluyan esa localización, para posteriormente poder hacer un análisis
 estadístico con los datos extraidos.
 
 Para este proyecto usaremos Python.
+
+Nos quedaremos solo con las ubicaciones como resultado del issue #3
