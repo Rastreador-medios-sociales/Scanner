@@ -10,3 +10,4 @@ class ManejadorDatos:
 
     def ordenarResultados(self):
         pass
+

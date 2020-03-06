@@ -22,3 +22,5 @@ class Cuenta:
 
     def registrarUsuario(self):
         pass
+
+    
