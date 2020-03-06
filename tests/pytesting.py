@@ -1,7 +1,7 @@
 import pytest
 from Project.Issue import Issue, IssueState
 
-PROJECTNAME = "testProject"
+PROJECTNAME = "Scanner"
 ISSUEID = 1
 
 @pytest.fixture
