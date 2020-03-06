@@ -1,5 +1,6 @@
 {
   "lenguaje":"Python",
   "build":"makefile",
-  "clase":"src/manejoDatos.py"
+  "clase":"src/manejoDatos.py",
+  "test":"tests/pytesting.py"
 }
