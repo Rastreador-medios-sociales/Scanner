@@ -1,12 +1,14 @@
 class ManejadorDatos:
+    
 
-    lugares = []
+    def __init__(self,ruta):
+        self.lugares = []
+        
+        
 
-    def __init__(self):
-        pass
-
-    def extraerDatos(self,'places.txt'):
-        archivo = open("places.txt")
+    def extraerDatos(self,ruta):
+ 
+        archivo = open(ruta,'r')
         linea = archivo.readline()
         lugares.append(linea)
         print lugares
@@ -19,3 +21,11 @@ class ManejadorDatos:
     def ordenarResultados(self):
         pass
 
+
+ruta = '/home/angela/Escritorio/places.txt'
+#f = open(ruta, 'r')
+#
+#print (f.read())
+
+obj1 = ManejadorDatos(ruta) 
+ManejadorDatos.extraerDatos(obj1,ruta)
