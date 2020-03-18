@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Rastreador-medios-sociales/Scanner.svg?branch=master)](https://travis-ci.org/Rastreador-medios-sociales/Scanner) 
 # Rastreador Medios Sociales
 
 >Localiza rápidamente los sitios más populares en las redes sociales para la ciudad que desees.
