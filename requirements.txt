@@ -2,3 +2,4 @@ pip-test-1==0.1
 pytest==4.6.9
 codecov==2.0.22
 pytest-cov==2.8.1
+fpdf==1.7.2

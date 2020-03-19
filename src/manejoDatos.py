@@ -1,7 +1,14 @@
 import os 
+
+import salidaTexto
+
+
+
 dir = os.path.dirname(__file__) 
 dir2 = os.path.dirname(__file__) 
 dir3 = os.path.dirname(__file__)
+
+
 
 class ManejadorDatos:
     
@@ -23,7 +30,8 @@ class ManejadorDatos:
 
 
     def guardarDatos(self):
-        pass
+        obj_pdf = salidaTexto.PEDEFE()
+        obj_pdf.exportaPDF("salidaDePrueba",self.lugares)
 
     def ordenarResultados(self):
         pass
@@ -47,3 +55,5 @@ ManejadorDatos.extraerDatos(obj1,filename)
 
 obj2 = ManejadorDatos(filename2)
 obj2.extraerDatos(filename2)
+
+obj1.guardarDatos()
