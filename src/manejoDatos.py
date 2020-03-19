@@ -1,6 +1,6 @@
 import os 
 
-import salidaTexto
+from src import salidaTexto
 
 
 
