@@ -1,6 +1,7 @@
 import os 
 
 from src import salidaTexto
+#import salidaTexto
 
 
 
@@ -29,9 +30,10 @@ class ManejadorDatos:
         return self.lugares
 
 
-    def guardarDatos(self):
+    def guardarDatos(self, titulopdf):
         obj_pdf = salidaTexto.PEDEFE()
-        obj_pdf.exportaPDF("salidaDePrueba",self.lugares)
+        obj_pdf.exportaPDF(titulopdf,self.lugares)
+        return obj_pdf.nombre
 
     def ordenarResultados(self):
         pass
@@ -56,4 +58,4 @@ ManejadorDatos.extraerDatos(obj1,filename)
 obj2 = ManejadorDatos(filename2)
 obj2.extraerDatos(filename2)
 
-obj1.guardarDatos()
+obj1.guardarDatos("salidaDePrueba")

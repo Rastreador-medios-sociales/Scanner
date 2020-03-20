@@ -5,6 +5,7 @@ class PEDEFE:
 
     def __init__(self):
         self.pdf = FPDF()
+        self.nombre = ""
 
 
     def exportaPDF(self, titulo, contenido):
@@ -13,5 +14,7 @@ class PEDEFE:
         for x in range(0,len(contenido)):
             self.pdf.cell(40, 10, contenido[x])
             self.pdf.ln()
-        #self.pdf.cell(40, 10, contenido)
+
+        self.nombre = titulo
         self.pdf.output(titulo, 'F')
+        return self.nombre
