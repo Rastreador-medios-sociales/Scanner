@@ -26,3 +26,10 @@ estadístico con los datos extraidos.
   - Las hemos alojado en [HU/historiasDeUsuario.md](https://github.com/Rastreador-medios-sociales/Scanner/blob/master/HU/historiasDeUsuario.md)
 
 ## Estado actual del proyecto: **En construcción**
+
+## Autores
+ - [**Miguel Ángel Martín Rodríguez**](https://github.com/migueorg) ----
+   [**Perfil en Linkedin**](https://www.linkedin.com/in/miguel-%C3%A1ngel-mart%C3%ADn-rodr%C3%ADguez-2893571a3/)
+ 
+ -  [**Ángela Gallardo Ruíz**](https://github.com/agr8) ----
+    [**Perfil en Linkedin**](https://www.linkedin.com/in/ángela-gallardo-ruiz-8063551a3)
