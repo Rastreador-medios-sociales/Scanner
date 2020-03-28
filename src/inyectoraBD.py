@@ -11,7 +11,7 @@ class Inyectora(abstractBD.BaseDatos):
     def setData(self):
         print("Almaceno en BD")
 
-abstractBD.BaseDatos.register(Inyectora)
+#abstractBD.BaseDatos.register(Inyectora)
 obj1 = Inyectora()
 
 obj1.initialiceBD()
