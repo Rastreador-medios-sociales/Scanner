@@ -41,21 +41,22 @@ class ManejadorDatos:
 
 
 
-#Main improvisado para hacer pruebas
-
-filename = os.path.join(dir, 'places.txt')
-
-filename2 = os.path.join(dir2, 'test.txt')
-
-#ruta = 'places.txt'
-f = open(filename, 'r')
-
-#print (f.read())
-
-obj1 = ManejadorDatos(filename) 
-ManejadorDatos.extraerDatos(obj1,filename)
-
-obj2 = ManejadorDatos(filename2)
-obj2.extraerDatos(filename2)
-
-obj1.guardarDatos("salidaDePrueba")
+##Main improvisado para hacer pruebas
+#
+#filename = os.path.join(dir, 'places.txt')
+#
+#filename2 = os.path.join(dir2, 'test.txt')
+#
+##ruta = 'places.txt'
+#f = open(filename, 'r')
+#
+##print (f.read())
+#
+#obj1 = ManejadorDatos(filename) 
+#ManejadorDatos.extraerDatos(obj1,filename)
+#
+#obj2 = ManejadorDatos(filename2)
+#obj2.extraerDatos(filename2)
+#
+#obj1.guardarDatos("salidaDePrueba")
+#
