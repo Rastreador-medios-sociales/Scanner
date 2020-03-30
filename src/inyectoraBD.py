@@ -48,11 +48,11 @@ class Inyectora(abstractBD.BaseDatos):
 
         
 
-obj1 = Inyectora()
+# obj1 = Inyectora()
 
-nuevo = ('migueorg', 'Migue', 'migueorg@correo.ugr.es')
-obj1.initialiceBD()
-obj1.setData(nuevo)
-obj1.getData()
+# nuevo = ('migueorg', 'Migue', 'migueorg@correo.ugr.es')
+# obj1.initialiceBD()
+# obj1.setData(nuevo)
+# obj1.getData()
 
 
