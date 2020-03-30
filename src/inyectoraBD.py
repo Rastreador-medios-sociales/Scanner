@@ -12,10 +12,10 @@ class Inyectora(abstractBD.BaseDatos):
 
 
      def initialiceBD(self):
-
         print("Creo BD")  
         self.miBD.execute("CREATE TABLE usuarios(id integer PRIMARY KEY, nick text, name text, email text)")
         self.conector.commit()
+        return 558
 
 
      def setData(self, tuplas):
@@ -28,7 +28,9 @@ class Inyectora(abstractBD.BaseDatos):
         iden = numer[0]+1 #Suma uno al número de entradas de la tabla
         iden_t = (iden,) #Pasa el int a tupla
         self.miBD.execute('''INSERT INTO usuarios(id, nick, name, email) VALUES(?, ?, ?, ?)''', iden_t+tuplas)
-        self.conector.commit()     
+        self.conector.commit()   
+        return 559
+  
 
      def getData(self):
         print("Obtengo de BD")
@@ -37,9 +39,11 @@ class Inyectora(abstractBD.BaseDatos):
         
         for row in rows:
             print(row)
+        return 560
+
         
 
-  
+ #Main de prueba 
 
 
         
