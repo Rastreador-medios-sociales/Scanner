@@ -4,9 +4,11 @@ import sqlite3
 
 class Inyectora(abstractBD.BaseDatos):
 
+
      def __init__(self):
         self.conector = sqlite3.connect('baseDatos.db')
         self.miBD = self.conector.cursor()
+
 
 
      def initialiceBD(self):
@@ -18,14 +20,13 @@ class Inyectora(abstractBD.BaseDatos):
         self.conector.commit()
 
 
-     def setData(self):
+     def setData(self, tuplas):
         print("Almaceno en BD")
 
         self.miBD.execute("INSERT INTO usuarios VALUES(1, 'agr8','Angy', 'angelagr@correo.ugr.es')")
         
-        nueva = (2, 'migueorg','Migue', 'migueorg@correo.ugr.es')
 
-        self.miBD.execute('''INSERT INTO usuarios(id, nick, name, email) VALUES(?, ?, ?, ?)''', nueva)
+        self.miBD.execute('''INSERT INTO usuarios(id, nick, name, email) VALUES(?, ?, ?, ?)''', tuplas)
 
         self.conector.commit()     
 
@@ -48,9 +49,9 @@ class Inyectora(abstractBD.BaseDatos):
 
 obj1 = Inyectora()
 
-
+nuevo = (2, 'migueorg', 'Migue', 'migueorg@correo.ugr.es')
 obj1.initialiceBD()
-obj1.setData()
+obj1.setData(nuevo)
 obj1.getData()
 
 
