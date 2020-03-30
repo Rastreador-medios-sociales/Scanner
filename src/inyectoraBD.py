@@ -1,4 +1,4 @@
-import abstractBD
+from src import abstractBD
 import sqlite3
 
 
